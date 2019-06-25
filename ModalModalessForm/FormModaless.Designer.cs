@@ -43,6 +43,7 @@
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "FormModaless";
+            this.Load += new System.EventHandler(this.FormModaless_Load);
             this.ResumeLayout(false);
 
         }
